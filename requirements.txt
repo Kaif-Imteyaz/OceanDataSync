@@ -1,0 +1,16 @@
+# Core dependencies
+requests>=2.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+pyyaml>=6.0
+
+# Web scraping and data parsing
+beautifulsoup4>=4.12.0
+
+# Optional dependencies (uncomment if needed)
+xarray>=2023.0.0           # For NetCDF file handling
+netCDF4>=1.6.0            # Alternative NetCDF support
+copernicusmarine>=0.8.0   # Official Copernicus Marine client
+h5py>=3.8.0               # HDF5 file support
+scipy>=1.10.0             # Scientific computing
+dask>=2023.0.0            # Parallel processing for large datasets

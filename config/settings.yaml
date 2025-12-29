@@ -1,0 +1,24 @@
+# Ocean Data Pipeline Configuration
+
+data_sources:
+  noaa:
+    enabled: true
+    days_back: 2
+  copernicus:
+    enabled: true
+    days_back: 1
+  argo:
+    enabled: true
+    profile_limit: 5
+  ncei:
+    enabled: true
+    station_limit: 10
+
+processing:
+  chunk_size: 9998
+  cleanup_temp_files: true
+
+logging:
+  level: INFO
+  save_csv: true
+  save_metadata: true
