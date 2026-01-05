@@ -1,6 +1,6 @@
-# OceanSync Data Pipeline
+# OceanDataSync Data Pipeline
 
-OceanSync is an automated data pipeline for synchronizing oceanographic data from multiple authoritative sources into a unified, standardized format. The system collects, processes, and stores data from NOAA, Copernicus Marine, Argo floats, and NCEI with comprehensive error handling and logging capabilities.
+OceanDataSync is an automated data pipeline for synchronizing oceanographic data from multiple authoritative sources into a unified, standardized format. The system collects, processes, and stores data from NOAA, Copernicus Marine, Argo floats, and NCEI with comprehensive error handling and logging capabilities.
 
 ## Features
 - Multi-source data synchronization from oceanographic repositories
@@ -13,7 +13,7 @@ OceanSync is an automated data pipeline for synchronizing oceanographic data fro
 
 ## Potential Applications
 
-OceanSync is designed to support:
+OceanDataSync is designed to support:
 
 **Research & Science**
 - Climate change and ocean warming studies
@@ -50,7 +50,7 @@ OceanSync is designed to support:
 
 ## Project Architecture
 ```
-OceanSync/
+OceanDataSync/
 ├── ocean_sync/                  # Core package
 │   ├── __init__.py
 │   ├── pipeline.py             # Main pipeline orchestrator
@@ -86,8 +86,8 @@ OceanSync/
 ### Quick Setup
 1. Create project directory:
 ```bash
-mkdir OceanSync
-cd OceanSync
+mkdir OceanDataSync
+cd OceanDataSync
 ```
 
 2. Run environment setup:
@@ -249,4 +249,5 @@ Current version: 1.0.0
 
 
 ---
+
 
